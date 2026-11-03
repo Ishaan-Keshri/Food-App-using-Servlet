@@ -8,7 +8,13 @@ public class ConnectionFactory {
 		{
 		Class.forName("com.mysql.cj.jdbc.Driver");//REGISTER AND LOAD THE JDBC DRIVER
 		//ESTABLISH THE CONNECTION
-		 cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/DBFOODAPP","root","ishaan");
+		String url = System.getenv("DB_URL");
+String username = System.getenv("DB_USERNAME");
+String password = System.getenv("DB_PASSWORD");
+
+cn = DriverManager.getConnection(url, username, password);
+
+
 		
 		}
 		
