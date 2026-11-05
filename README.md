@@ -114,15 +114,8 @@ Database name: `DBFOODAPP`
 
 The application uses MySQL to store food details, user registration information, and order data.
 
-**Note:** Add your database creation and table-creation SQL script to the repository before publishing so other developers can set up the project.
 
-## Future Improvements
 
-- Improve UI responsiveness.
-- Add password hashing and stronger authentication.
-- Implement input validation and exception handling.
-- Improve database query security using PreparedStatement.
-- Add an admin/user role-based access system.
 
 ## Author
 
